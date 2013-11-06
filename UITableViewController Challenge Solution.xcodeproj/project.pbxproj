@@ -20,6 +20,7 @@
 		BA98EB71181F6A300036FDDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA98EB53181F6A300036FDDF /* UIKit.framework */; };
 		BA98EB79181F6A300036FDDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA98EB77181F6A300036FDDF /* InfoPlist.strings */; };
 		BA98EB7B181F6A300036FDDF /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA98EB7A181F6A300036FDDF /* UITableViewController_Challenge_SolutionTests.m */; };
+		BAD716E8182A09D90043B742 /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD716E7182A09D90043B742 /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		BA98EB76181F6A300036FDDF /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		BA98EB78181F6A300036FDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA98EB7A181F6A300036FDDF /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		BAD716E6182A09D90043B742 /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCTableViewController.h; path = ../CCTableViewController.h; sourceTree = "<group>"; };
+		BAD716E7182A09D90043B742 /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCTableViewController.m; path = ../CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				BA98EB5E181F6A300036FDDF /* CCAppDelegate.h */,
 				BA98EB5F181F6A300036FDDF /* CCAppDelegate.m */,
 				BA98EB61181F6A300036FDDF /* Main.storyboard */,
+				BAD716E6182A09D90043B742 /* CCTableViewController.h */,
+				BAD716E7182A09D90043B742 /* CCTableViewController.m */,
 				BA98EB67181F6A300036FDDF /* Images.xcassets */,
 				BA98EB56181F6A300036FDDF /* Supporting Files */,
 			);
@@ -247,6 +252,7 @@
 			files = (
 				BA98EB60181F6A300036FDDF /* CCAppDelegate.m in Sources */,
 				BA98EB5C181F6A300036FDDF /* main.m in Sources */,
+				BAD716E8182A09D90043B742 /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
